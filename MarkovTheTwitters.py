@@ -57,6 +57,26 @@ def generateText( dictionary, n ):
     string = ' '.join(listOfWords)
     return string
 
+def getQuery():
+    """Gets the user query, rejects empty queries"""
+    userSearch = raw_input('What would you like to search for today? \n')
+
+    if userSearch == "":
+        print "Please input a search query. \n"
+        userSearch = getQuery()
+        return userSearch
+    else:
+        return userSearch
+
+def playAgain():
+    """Asks if the user would like to play again"""
+    again = raw_input('Would you like to try again? (y/n) ')
+    if again == 'n':
+        return
+    else:
+        print ""
+        main()
+
 def main():
 #     Error handling to make sure authentication is working
     try:
@@ -71,8 +91,8 @@ def main():
         return
     
 #     Get user query and search twitter
-    userSearch = raw_input('What would you like to search for today? ')
-    searchResults = twitter.search(q=userSearch, lang="en", count=100)
+    userSearch = getQuery()
+    searchResults = twitter.search(q=userSearch, lang="en", count=100)  
     
 #     Parse twitter search results
     twitterPosts = searchResults.get("statuses")
@@ -81,8 +101,6 @@ def main():
     for tweet in twitterPosts:
         listOfTweets = listOfTweets + tweet["text"] + ". "
     
-    print ""
-    
 #     A lack of results ultimately returns a KeyError
 #     This checks for results before continuing
     if listOfTweets == "":
@@ -90,18 +108,8 @@ def main():
     else:
         dictionary = createDictionary(listOfTweets)
         NewTweet0 = generateText(dictionary, 30)
-        print NewTweet0[:140]
-        
-    print ""
-        
-    again = raw_input('Would you like to try again? (y/n) ')
-    if again == 'y':
-        main()
-    elif again == 'n':
-        "kthxbai"
-        return
-    else:
-        print "try following directions next time!"
-        return    
+        print NewTweet0[:140] + "\n"
+
+    playAgain()
 
 main()

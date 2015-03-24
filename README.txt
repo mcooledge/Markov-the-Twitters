@@ -9,10 +9,11 @@ To run:
 2. Create a twitter app at apps.twitter.com > "Create New App"
 3. Make a file titled config.py in the same folder as MarkovTheTwitters.py.
     Copy and paste the following text:
-        OAUTH_KEY = ""
-        OAUTH_SECRET =""
+        OAUTH_KEY = "<YOUR_KEY>"
+        OAUTH_SECRET = "<YOUR_SECRET>"
     Insert your key and secret between the quotes.
+    Example.config.py can also be edited and renamed for this step.
 
-You should now be read to run the MarkovTheTwitters file.
+You should now be ready to run the MarkovTheTwitters file.
 If you continue to get a key and secret error, double check that your key and
 secret are accurate.

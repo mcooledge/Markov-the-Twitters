@@ -1,2 +1,43 @@
 config.py
 config.pyc
+.metadata/version.ini
+.metadata/.lock
+.metadata/.log
+*.pydevsysteminfo
+.metadata/.plugins/org.eclipse.core.resources/.projects/Markov the Twitters/.indexes/properties.index
+*.location
+.metadata/.plugins/org.eclipse.core.resources/.projects/Markov the Twitters/.markers.snap
+*.snap
+*.v1_projectinfodelta
+.metadata/.plugins/org.eclipse.core.resources/.history/1b/c02fbba8d0d100141505fc80098ec15d
+.metadata/.plugins/org.python.pydev/v1_258tvcdekrk5tmtf5h0ez044z/shell/__m_4zk3cnoobcl5is5emwkc9sm0p.inn
+*.top
+.metadata/.plugins/org.python.pydev/v1_258tvcdekrk5tmtf5h0ez044z/shell/_wi_9kzagujj2db7ne7keoph3f67l.inn
+*.inn
+.metadata/.plugins/org.python.pydev/v1_258tvcdekrk5tmtf5h0ez044z/0.v1_sys_astdelta
+*.v1_sys_astdelta
+.metadata/.plugins/org.python.pydev/v1_258tvcdekrk5tmtf5h0ez044z/modulesKeys
+.metadata/.plugins/org.python.pydev/v1_258tvcdekrk5tmtf5h0ez044z/pythonpath
+.metadata/.plugins/org.python.pydev.shared_ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.core.resources/.history/68/a004f3b6d0d100141505fc80098ec15d
+*.pydevinfo
+.metadata/.plugins/org.eclipse.core.resources/.projects/Markov the Twitters/org.python.pydev/0.v1_astdelta
+*.properties
+.metadata/.plugins/org.eclipse.core.resources/.projects/Markov the Twitters/org.python.pydev/v1_astmanager/modulesKeys
+*.version
+.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+*.prefs
+.metadata/.plugins/org.eclipse.debug.core/.launches/New_configuration.launch
+*.resources
+.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+*.pref
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+*.history
+.metadata/.plugins/org.python.pydev/dialog_settings.xml
+*.hist
+.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/3/13/refactorings.index
